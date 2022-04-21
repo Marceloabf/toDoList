@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 6em;
+    font-family: 'Akshar', sans-serif;
+}
+ul{
+    padding-left:1em;
+}
+input{
+    margin-top: 1em;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 1em;
+    width: 150px;
+}
+
+input:focus{
+    border: 3px solid pink;
+    outline: none;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+.container {
+    text-align: center;
+}
